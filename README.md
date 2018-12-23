@@ -16,7 +16,7 @@ Example icinga2 `CheckCommand` (service) configuration:
 
 ```
 object NotificationCommand "yeelight-service-notification" {
-	command = [ ConfigDir + PathToScript ]
+	command = [ PathToScript ]
 	env += {
 		STATE = "$service.state$"
 	}
