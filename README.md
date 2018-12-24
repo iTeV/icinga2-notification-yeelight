@@ -12,7 +12,7 @@ For example, when a service/host reaches a critical state, this script will then
 | OK       | Green  |
 | UP       | Green  |
 
-Example icinga2 `CheckCommand` (service) configuration:
+Example icinga2 `NotificationCommand` configuration:
 
 ```
 object NotificationCommand "yeelight-service-notification" {
